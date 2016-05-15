@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zkochan/mos-plugin-ejs"
+    "url": "https://github.com/mosjs/mos-plugin-ejs"
   },
   "keywords": [
     "mos-plugin",
@@ -36,9 +36,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zkochan/mos-plugin-ejs/issues"
+    "url": "https://github.com/mosjs/mos-plugin-ejs/issues"
   },
-  "homepage": "https://github.com/zkochan/mos-plugin-ejs#readme",
+  "homepage": "https://github.com/mosjs/mos-plugin-ejs#readme",
   "dependencies": {
     "@zkochan/read-pkg-up": "^1.0.2",
     "github-url-to-object": "^2.2.1",
