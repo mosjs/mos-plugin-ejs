@@ -1,9 +1,6 @@
-'use strict'
-module.exports = createAsyncScopeEval
+import runAsync from 'babel-run-async'
 
-const runAsync = require('run-async')
-
-function createAsyncScopeEval (scope, opts) {
+export default function createAsyncScopeEval (scope, opts) {
   opts = opts || {}
   const mdVarNames = []
   const mdVarValues = []

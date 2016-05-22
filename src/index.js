@@ -1,7 +1,4 @@
-'use strict'
-module.exports = plugin
-
-const createAsyncScopeEval = require('./create-async-scope-eval')
+import createAsyncScopeEval from './create-async-scope-eval'
 
 const template = new RegExp('^<!--@([\\s\\S]+?)-->(?:[\\s\\S]*?)<!--/@-->')
 
@@ -37,7 +34,7 @@ function matchRecursive (str) {
   } while (openTokens && (iterator.lastIndex = matchStartIndex))
 }
 
-function plugin (mos, md) {
+export default function plugin (mos, md) {
   function markdownScript (parser, value, silent) {
     if (!template.exec(value)) return
 

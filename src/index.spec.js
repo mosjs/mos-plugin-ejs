@@ -3,7 +3,7 @@ const describe = require('mocha').describe
 const it = require('mocha').it
 const expect = require('chai').expect
 const mos = require('mos-processor')
-const plugin = require('.')
+import plugin from './index'
 
 function createProcess (scope) {
   const plugin1 = mos => Object.assign(mos.scope, scope || {})

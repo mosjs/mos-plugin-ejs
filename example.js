@@ -1,2 +1,2 @@
 'use strict'
-const ejs = require('.')
+const ejs = require('./dist')
